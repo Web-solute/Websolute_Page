@@ -9,10 +9,10 @@ const Menubar = styled.ul`
 const Menu = () => {
   return (
     <div>
-      <Link to="/">
-        <img src={Logo} width="250" height="80" alt="로고"></img>
-      </Link>
       <Menubar className="menubar">
+        <Link className="title" to="/">
+          WEBSOLUTE
+        </Link>
         <Link className="link" to="/about">
           About
         </Link>

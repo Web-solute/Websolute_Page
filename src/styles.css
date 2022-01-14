@@ -1,7 +1,23 @@
 .link {
   color: black;
   text-decoration: none;
-  margin-right: 100px;
-  font-size: larger;
+  margin-right: 50px;
+
+  font-size: 20px;
   font-weight: bolder;
+}
+.title {
+  color: black;
+  text-decoration: none;
+  margin-right: 50px;
+
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.body {
+  height: 100vh;
+  background-image: url("./Media/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
