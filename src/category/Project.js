@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Footer from "../Footer";
 import Menu from "../Menu";
 
 class Project extends Component {
@@ -16,6 +17,7 @@ class Project extends Component {
       <>
         <Menu />
         project
+        <Footer />
       </>
     );
   }

@@ -1,18 +1,23 @@
 import { Link } from "react-router-dom";
-import Logo from "./Media/Logo.jpg";
+import Logo from "./Media/Logo.png";
 import styled from "styled-components";
 import "./styles.css";
 const Menubar = styled.ul`
   display: inline;
+  margin-top: 20px;
+  position: absolute;
 `;
-
+const Im = styled.img`
+  width: 210px;
+  height: 55px;
+`;
 const Menu = () => {
   return (
     <div>
-      <Menubar className="menubar">
-        <Link className="title" to="/">
-          WEBSOLUTE
-        </Link>
+      <Link to="/">
+        <Im src={Logo}></Im>
+      </Link>
+      <Menubar>
         <Link className="link" to="/about">
           About
         </Link>

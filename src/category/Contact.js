@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Footer from "../Footer";
 import Menu from "../Menu";
 
 class Contact extends Component {
@@ -16,6 +17,7 @@ class Contact extends Component {
       <>
         <Menu />
         Contact
+        <Footer />
       </>
     );
   }
