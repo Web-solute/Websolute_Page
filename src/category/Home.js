@@ -1,6 +1,4 @@
-import classNames from "classnames";
 import { Component } from "react";
-import { createGlobalStyle } from "styled-components";
 import Menu from "../Menu";
 import styled from "styled-components";
 import "../styles.css";
@@ -22,7 +20,7 @@ const Arrow = styled.a`
   color: black;
 
   margin-left: 40px;
-  font-size: 28px;
+  font-size: 23px;
   font-weight: 700;
 `;
 
@@ -38,19 +36,21 @@ class Home extends Component {
    */
   render() {
     return (
-      <div className="body">
-        <Menu />
-        <br />
+      <>
+        <div className="body">
+          <Menu />
+          <br />
 
-        <Sub>
-          <Pave>Pave the way</Pave>
-          3H가 모이는 최고의 IT 서비스 개발 커뮤니티
-          <br />
-          <br />
-        </Sub>
-        <Arrow href="/about">웹솔루트 알아보기➔</Arrow>
+          <Sub>
+            <Pave>Pave the way</Pave>
+            3H가 모이는 최고의 IT 서비스 개발 커뮤니티
+            <br />
+            <br />
+          </Sub>
+          <Arrow href="/about">웹솔루트 알아보기➔</Arrow>
+        </div>
         <Footer />
-      </div>
+      </>
     );
   }
 }
