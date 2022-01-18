@@ -1,8 +1,8 @@
 import { Component } from "react";
-import Menu from "../Menu";
+import Menu from "./Menu";
 import styled from "styled-components";
-import "../styles.css";
-import Footer from "../Footer";
+import "./styles.css";
+import Footer from "./Footer";
 
 const Pave = styled.p`
   font-size: 90px;

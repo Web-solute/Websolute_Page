@@ -1,7 +1,7 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import About from "./category/About";
 import Contact from "./category/Contact";
-import Home from "./category/Home";
+import Home from "./Home";
 import Project from "./category/Project";
 import Recruitment from "./category/Recruitment";
 

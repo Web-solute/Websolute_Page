@@ -3,9 +3,10 @@ import styled from "styled-components";
 import Footer from "../Footer";
 import Menu from "../Menu";
 import recruit from "../Media/recruit.jpg";
-
+import "../styles.css";
+import "./Recruitment.css";
 const Recruit = styled.h1`
-  margin-top: 80px;
+  margin-top: 110px;
   margin-left: 80px;
   font-size: 70px;
   font-weight: 900;
@@ -34,6 +35,7 @@ class Recruitment extends Component {
       color: "white",
       textDecoration: "none",
     };
+
     return (
       <>
         <div className="recruitment">
@@ -52,29 +54,58 @@ class Recruitment extends Component {
               지원서 작성하기
             </a>
           </R_button>
-          <nav className="recruit_box">
-            <h1>Qualification</h1>
-            <ul>
-              <li>d</li>
-              <li>d</li>
-            </ul>
-          </nav>
-          <nav className="recruit_box">
-            <h1>Recruitment Schedule</h1>
-            <ul>
-              <li>d</li>
-              <li>d</li>
-            </ul>
-          </nav>
-
-          <nav className="recruit_box">
-            <h1>Notice</h1>
-            <ul>
-              <li>d</li>
-              <li>d</li>
-            </ul>
-          </nav>
         </div>
+        <nav className="recruit_box">
+          <h1>Qualification</h1>
+          <ul>
+            <li>개발하고 싶은 아이디어가 많으신 분</li>
+            <li>
+              대학생 중 협업을 활동을 통해 서비스를 창작하고 배포해보고 싶으신
+              분{" "}
+            </li>
+            <li>다양한 분야의 사람들과 소통하길 원하시는 분 </li>
+            <li>매주 진행되는 온라인 회의 참여가능하신 분 </li>
+          </ul>
+        </nav>
+        <nav className="schedule_box">
+          <h1 style={{ fontSize: "35px" }}>Recruitment Schedule</h1>
+          <ul>
+            <li>
+              <h3>서류접수</h3> <p>2021. 12. 4 ~ 12. 12</p>
+            </li>
+            <li>
+              <h3>서류 합격 발표</h3> <p>2021. 12. 4</p>
+            </li>
+            <li>
+              <h3>면접</h3> <p>2021. 12. 4 ~ 12. 12</p>
+            </li>
+            <li>
+              <h3>최종 합격 발표</h3> <p>2021. 12. 4</p>
+            </li>
+            <li>
+              <h3>정규 활동</h3> <p>2021. 12. 4 ~ 12. 12</p>
+            </li>
+          </ul>
+        </nav>
+
+        <nav className="recruit_box" style={{ marginTop: "200px" }}>
+          <h1>Notice</h1>
+          <ul>
+            <li>
+              개발자 지원시, 본인의 github개정 필수로 지참해주셔야 합니다.{" "}
+            </li>
+            <li>
+              지원서에 * 문항은 꼭 채워주시고 자신이 개발하고 싶은 서비스
+              간단한거라도 좋으니 꼭 적어주시기 바랍니다!{" "}
+            </li>
+            <li>
+              지원서에 기재하신 개인정보는 websolute신입 회원 모집과 결과 전달을
+              위해 사용되며, 지원서 제출 시 개인정보 수집 및 이용에 동의한
+              것으로 간주합니다. 다른 목적으로는 이용되지 않으며, 모집일정 이후
+              즉시 폐기됩니다.{" "}
+            </li>
+          </ul>
+        </nav>
         <Footer />
       </>
     );

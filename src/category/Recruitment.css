@@ -1,0 +1,55 @@
+.recruitment {
+  background: url("../Media/recruit4.jpg");
+  width: 85%;
+  height: 635px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.recruit_box {
+  background-color: #f6f6f6f6;
+  border-radius: 30px;
+  margin: 60px;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 21px;
+}
+.recruit_box li {
+  list-style: circle;
+  margin-top: 5px;
+}
+.schedule_box {
+  margin: 60px;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 21px;
+}
+.schedule_box ul {
+  display: inline;
+
+  position: absolute;
+  list-style: none;
+}
+.schedule_box h3 {
+  margin-top: 0px;
+}
+.schedule_box li {
+  text-align: center;
+  border-radius: 30px;
+  background-color: #f6f6f6f6;
+
+  height: 100px;
+
+  padding: 15px;
+  padding-right: 20px;
+  float: left;
+  margin-right: 20px;
+}
+.schedule_box p {
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+.recruit_box h1 {
+  font-size: 35px;
+}
