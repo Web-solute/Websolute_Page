@@ -23,7 +23,7 @@ const Menu = () => {
           About
         </Link>
 
-        <Link to="/project" className="link">
+        <Link to="/Projectpage" className="link">
           Project
         </Link>
 
