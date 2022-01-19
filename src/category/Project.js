@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Footer from "../Footer";
 import Menu from "../Menu";
+import Project1 from "../pages/Projectpage";
 
 class Project extends Component {
   /*
@@ -16,7 +17,7 @@ class Project extends Component {
     return (
       <>
         <Menu />
-        project
+        <Project1 />
         <Footer />
       </>
     );
