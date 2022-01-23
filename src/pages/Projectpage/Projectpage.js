@@ -5,13 +5,13 @@ import ProjectItem from './ProjectItem';
 import Clickpage from './Clickpage';
 import ProjectList from './ProjectList';
 
-const itemsPerPage = 4;
+const itemsPerPage = 6;
 let arrayForHoldingItems = [];
 
 const Projectpage = () => {
 
   const [itemsToShow, setItemsToShow] = useState([]);
-  const [next, setNext] = useState(4);
+  const [next, setNext] = useState(6);
 
   const loopWithSlice = (start, end) => {
     const slicedItems = ProjectList.slice(start, end);
