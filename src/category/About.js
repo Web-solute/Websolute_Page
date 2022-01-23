@@ -31,7 +31,8 @@ class About extends Component {
           </div>
         </div>
 
-        <div className="infoTable">
+        <div className="activity_contens">
+
           <h2 className="title1">
             2년째 <br />멈추지 않는 열정!
           </h2>
@@ -65,7 +66,6 @@ class About extends Component {
           <br />
           <br />
           <br />
-
           <div className="activity">
             <h2 className="title1">
               함께하는 <br />다양한 활동!
@@ -73,8 +73,53 @@ class About extends Component {
             <h3>정규 활동은 매주 월요일에 회의가 진행되며, 프로젝트를 진행합니다. <br />
               비활동 기간에는 프로젝트·공모전·스터디를 자율적으로 진행합니다.</h3>
           </div>
+          <div className="icons_cards">
+            <div className="icons_contents1">
+              <div className="icons">
+                <p className="iconsdescription">현직자의
+                  경험을 공유합니다</p>
+                <p className="icons_title">Invitation Session</p>
+              </div>
+            </div>
+            <div className="icons_contents2">
+              <div className="icons">
+                <p className="iconsdescription">팀을 이루어서
+                  IT 프로젝트를 진행합니다.</p>
+                <p className="icons_title">IT Project</p>
+              </div>
+            </div>
+            <div className="icons_contents3">
+              <div className="icons">
+                <p className="iconsdescription">새로운 사람들과
+                  정보를 공유합니다</p>
+                <p className="icons_title">Networking</p>
+              </div>
+            </div>
+            <div className="icons_contents4">
+              <div className="icons">
+                <p className="iconsdescription">몰입할 수 있는 환경을
+                  제공합니다</p>
+                <p className="icons_title">Hackathon</p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+
+
+
+
         </div>
 
+
+        <br />
+        <br />
+        <br />
         <Footer />
       </>
     );

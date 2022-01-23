@@ -1,23 +1,26 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import * as BlogModal from './ClickMe';
 import ProjectList from './ProjectList';
 import './styles.css';
 
-const ProjectItem = () => {
-  const list = ProjectList.slice(0, 1000).map((project, index) => (
+
+const ProjectItem = ({ itemsToRender, clickItems, clickedObject }) => {
+  const list = ProjectList.slice(0, 6).map((project, index) => (
     <Fade bottom>
       <div
         className="ProjectItem_div1"
         style={{
           cursor: 'pointer',
         }}
+        onClick={() => {
+          clickItems(true);
+          clickedObject(itemsToRender[index]);
+        }}
 
       >
         <a
           className="a1"
           key={index}
-          onClick={() => BlogModal.clickMe(project.link)}
         >
           <div className="ProjectItem_div2">
             <img

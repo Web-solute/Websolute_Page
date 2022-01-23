@@ -20,7 +20,7 @@ const Footer = () => {
           <a href="https://instagram.com/web_solute?utm_medium=copy_link">
             <img
               className="icon"
-              src="https://cdn-icons.flaticon.com/png/512/3991/premium/3991634.png?token=exp=1642158153~hmac=115bfc77e161f9772bc91fb658eab528"
+              src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
             ></img>
           </a>
         </span>
