@@ -37,7 +37,7 @@ class Contact extends Component {
           </div>
 
           <div className="box">
-            <img src="https://cdn-icons.flaticon.com/png/512/3991/premium/3991634.png?token=exp=1642158153~hmac=115bfc77e161f9772bc91fb658eab528"></img>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"></img>
             <p>Instagram</p>
 
             <a href=" https://instagram.com/web_solute?utm_medium=copy_link">
@@ -45,7 +45,7 @@ class Contact extends Component {
             </a>
           </div>
           <div className="box">
-            <img src="https://cdn.icon-icons.com/icons2/652/PNG/512/gmail_icon-icons.com_59877.png"></img>
+            <img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png"></img>
             <p>Gmail</p>
 
             <a>psh090953@gmail.com</a>

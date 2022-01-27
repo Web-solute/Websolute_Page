@@ -32,18 +32,9 @@ const Projectpage = () => {
 
   const [clickedObject, setClickedObject] = useState([]);
 
+
   return (
     <section id="project" className="section">
-      <br />
-
-      <div className="div2">
-        <h1 className="project_main_text">
-          Look Around Our Projects
-        </h1>
-
-
-      </div>
-
       <div className="div3">
         <ProjectItem
           itemsToRender={itemsToShow}

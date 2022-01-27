@@ -31,9 +31,14 @@ const Menu = () => {
           Recruitment
         </Link>
 
+        <Link to="/member" className="link">
+          Member
+        </Link>
+
         <Link to="/contact" className="link">
           Contact
         </Link>
+
       </Menubar>
     </div>
   );

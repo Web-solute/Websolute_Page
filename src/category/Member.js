@@ -1,11 +1,10 @@
 import { Component } from "react";
 import Footer from "../Footer";
 import Menu from "../Menu";
-import Project1 from "../pages/Projectpage";
 import styled from "styled-components";
-import "./Project.css"
+import "./Member.css";
 
-class Project extends Component {
+class Member extends Component {
   /*
       constructor(props){
           super(props);
@@ -15,20 +14,26 @@ class Project extends Component {
       }
       
      */
+
+
   render() {
-    const Pro = styled.h1`
+
+    const Member = styled.h1`
       font-size: 55px;
     `;
+
     return (
       <>
         <Menu />
-        <div className="proo">
-          <Pro>Look Around Our Projects</Pro>
+        <div className="member">
+          <Member>Our Member</Member>
+
+
+
         </div>
-        <Project1 />
         <Footer />
       </>
     );
   }
 }
-export default Project;
+export default Member;

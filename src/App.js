@@ -4,6 +4,7 @@ import Contact from "./category/Contact";
 import Home from "./Home";
 import Project from "./category/Project";
 import Recruitment from "./category/Recruitment";
+import Member from "./category/Member";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/recruitment" component={Recruitment} />
         <Route path="/contact" component={Contact} />
         <Route path="/Projectpage" component={Project} />
+        <Route path="/member" component={Member} />
       </BrowserRouter>
     </div>
   );
