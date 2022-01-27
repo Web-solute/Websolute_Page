@@ -3,7 +3,7 @@ import "./styles.css";
 const Copy = styled.span`
   font-size: 18px;
   font-weight: 800;
-  margin-left: 20px;
+  
 `;
 const Footer = () => {
   const year = new Date().getFullYear();

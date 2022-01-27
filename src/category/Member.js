@@ -3,6 +3,7 @@ import Footer from "../Footer";
 import Menu from "../Menu";
 import styled from "styled-components";
 import "./Member.css";
+import MemberList from "./MemberList";
 
 class Member extends Component {
   /*
@@ -28,7 +29,7 @@ class Member extends Component {
         <div className="member">
           <Member>Our Member</Member>
 
-
+          <MemberList />
 
         </div>
         <Footer />
