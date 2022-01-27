@@ -1,11 +1,10 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import ProjectList from './ProjectList';
 import './styles.css';
 
 
 const ProjectItem = ({ itemsToRender, clickItems, clickedObject }) => {
-  const list = ProjectList.slice(0, 6).map((project, index) => (
+  const list = itemsToRender.map((project, index) => (
     <Fade bottom>
       <div
         className="ProjectItem_div1"
