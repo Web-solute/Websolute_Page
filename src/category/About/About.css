@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-  background: url(https://drive.google.com/uc?export=view&id=1HuABcukI6NWAEpMSW9mLLd7kSNCd53zP);
+  background: url(../../Media/aboutimg.jpeg);
   background-position-x: 50%;
   background-position-y: center;
   background-size: cover;
@@ -33,7 +33,7 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #777;
+  color: white;
 }
 
 .title1 {
@@ -124,7 +124,7 @@ body {
 }
 
 .icons_contents1 {
-  background-image: url(../../Media/icon1.png);
+  background-image: url(../../Media/pngwing.com.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;
@@ -133,7 +133,7 @@ body {
 }
 
 .icons_contents2 {
-  background-image: url(../../Media/icon2.jpeg);
+  background-image: url(../../Media/pngwing.com1.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;
@@ -142,7 +142,7 @@ body {
 }
 
 .icons_contents3 {
-  background-image: url(../../Media/icon3.png);
+  background-image: url(../../Media/pngwing.com2.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;
@@ -151,7 +151,7 @@ body {
 }
 
 .icons_contents4 {
-  background-image: url(../../Media/icon4.png);
+  background-image: url(../../Media/pngwing.com3.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;

@@ -3,83 +3,27 @@ import ai from './images/blogimages/ai.png'
 
 const Blogs = [
   {
-    title: 'haha',
+    title: 'CampusMap',
     content:
-      'sdadasd',
+      '위치 찾기 (HUFS Ver.)',
     imageurl: ai,
     link: 'https://www.google.com/',
   },
   {
 
-    title: 'asdasd',
+    title: 'Hoops',
     content:
-      'asdasdasd',
+      '예약 서비스 + QR Code 도어락',
     imageurl: web,
     link: 'https://www.google.com/',
   },
   {
-    title: 'asdasd',
+    title: 'Booting',
     content:
-      'asdasdasd',
+      '학교별 랜덤 소개팅 매칭 서비스',
     imageurl: web,
     link: 'https://www.google.com/',
   },
-  {
-
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-  {
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-  {
-
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-  {
-
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-  {
-
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-  {
-
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-  {
-
-    title: 'asdasd',
-    content:
-      'asdasdasd',
-    imageurl: web,
-    link: 'https://www.google.com/',
-  },
-
 
 ];
 
