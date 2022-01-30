@@ -1,9 +1,9 @@
 import { Component } from "react";
 import styled from "styled-components";
-import Footer from "../Footer";
-import Menu from "../Menu";
-import recruit from "../Media/recruit.jpg";
-import "../styles.css";
+import Footer from "../../Footer";
+import Menu from "../../Menu";
+import "../../styles.css";
+
 import "./Recruitment.css";
 const Recruit = styled.h1`
   margin-top: 110px;

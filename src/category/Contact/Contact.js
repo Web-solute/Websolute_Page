@@ -1,7 +1,11 @@
 import { Component } from "react";
 import styled from "styled-components";
-import Footer from "../Footer";
-import Menu from "../Menu";
+import Footer from "../../Footer";
+import Menu from "../../Menu";
+import instagram from "../../Media/instagram.png";
+import github from "../../Media/github.png";
+import kakao from "../../Media/kakao.png";
+import gmail from "../../Media/gmail.png";
 import "./Contact.css";
 class Contact extends Component {
   /*
@@ -26,18 +30,18 @@ class Contact extends Component {
             <img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/kakaotalk_black_logo_icon_147117.png"></img>
             <p>Kakao Channel</p>
 
-            <a href="https://pf.kakao.com/_TLxixls">@_TLxixls</a>
+            <a href={kakao}>@_TLxixls</a>
           </div>
 
           <div className="box">
-            <img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png"></img>
+            <img src={github}></img>
             <p>Github</p>
 
             <a href=" https://www.websolute.co.kr/">@websolute</a>
           </div>
 
           <div className="box">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"></img>
+            <img src={instagram}></img>
             <p>Instagram</p>
 
             <a href=" https://instagram.com/web_solute?utm_medium=copy_link">
@@ -45,7 +49,7 @@ class Contact extends Component {
             </a>
           </div>
           <div className="box">
-            <img src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png"></img>
+            <img src={gmail}></img>
             <p>Gmail</p>
 
             <a>psh090953@gmail.com</a>

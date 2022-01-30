@@ -1,10 +1,10 @@
 import { BrowserRouter, Route } from "react-router-dom";
-import About from "./category/About";
-import Contact from "./category/Contact";
+import About from "./category/About/About";
+import Contact from "./category/Contact/Contact";
 import Home from "./Home";
-import Project from "./category/Project";
-import Recruitment from "./category/Recruitment";
-import Member from "./category/Member";
+import Project from "./category/Project/Project";
+import Recruitment from "./category/Recruitment/Recruitment";
+import Member from "./category/Member/Member";
 
 function App() {
   return (

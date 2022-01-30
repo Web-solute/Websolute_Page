@@ -1,0 +1,14 @@
+.member {
+  margin: 180px;
+  margin-top: 80px;
+}
+.mem_li img {
+  width: 90px;
+  margin-bottom: 7px;
+}
+.mem_li a {
+  color: black;
+}
+.mem_li {
+  text-align: center;
+}

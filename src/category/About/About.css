@@ -124,7 +124,7 @@ body {
 }
 
 .icons_contents1 {
-  background-image: url(../Media/icon1.png);
+  background-image: url(../../Media/icon1.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;
@@ -133,7 +133,7 @@ body {
 }
 
 .icons_contents2 {
-  background-image: url(../Media/icon2.jpeg);
+  background-image: url(../../Media/icon2.jpeg);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;
@@ -142,7 +142,7 @@ body {
 }
 
 .icons_contents3 {
-  background-image: url(../Media/icon3.png);
+  background-image: url(../../Media/icon3.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;
@@ -151,7 +151,7 @@ body {
 }
 
 .icons_contents4 {
-  background-image: url(../Media/icon4.png);
+  background-image: url(../../Media/icon4.png);
   background-size: cover;
   background-position: center center;
   border-radius: 16px;

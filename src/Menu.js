@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "./Media/Logo.png";
+
 import Logo2 from "./Media/Logo2.png";
 import styled from "styled-components";
 import "./styles.css";
@@ -38,7 +38,6 @@ const Menu = () => {
         <Link to="/contact" className="link">
           Contact
         </Link>
-
       </Menubar>
     </div>
   );

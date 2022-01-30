@@ -1,11 +1,11 @@
 import { Component } from "react";
-import Footer from "../Footer";
-import Menu from "../Menu";
+import Footer from "../../Footer";
+import Menu from "../../Menu";
+import Project1 from "../../pages/Projectpage";
 import styled from "styled-components";
-import "./Member.css";
-import MemberList from "./MemberList";
+import "./Project.css";
 
-class Member extends Component {
+class Project extends Component {
   /*
       constructor(props){
           super(props);
@@ -15,26 +15,20 @@ class Member extends Component {
       }
       
      */
-
-
   render() {
-
-    const Member = styled.h1`
+    const Pro = styled.h1`
       font-size: 55px;
     `;
-
     return (
       <>
         <Menu />
-        <div className="member">
-          <Member>Our Member</Member>
-
-          <MemberList />
-
+        <div className="proo">
+          <Pro>Look Around Our Projects</Pro>
         </div>
+        <Project1 />
         <Footer />
       </>
     );
   }
 }
-export default Member;
+export default Project;
