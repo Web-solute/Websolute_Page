@@ -1,7 +1,7 @@
 import web from './images/blogimages/web.png'
 import ai from './images/blogimages/ai.png'
 
-const Blogs = [
+const Projects = [
   {
     title: 'CampusMap',
     content:
@@ -51,4 +51,4 @@ const Blogs = [
 
 
 
-export default Blogs;
+export default Projects;

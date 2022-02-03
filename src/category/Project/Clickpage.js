@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import "./Project.css";
 
 const Clickpage = ({ itemsToShow, clickItems }) => {
   const list = (

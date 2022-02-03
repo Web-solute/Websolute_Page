@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import './styles.css';
+import "./Project.css";
 
 
 const ProjectItem = ({ itemsToRender, clickItems, clickedObject }) => {
