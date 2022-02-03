@@ -43,7 +43,7 @@ const Projectpage = () => {
       font-size: 55px;
     `;
 
-  return <>(
+  return <>
     <Menu />
     <div className="proo">
       <Pro>Look Around Our Projects</Pro>
@@ -94,7 +94,6 @@ const Projectpage = () => {
 
       <Footer />
     </section>
-    );
   </>
 };
 
