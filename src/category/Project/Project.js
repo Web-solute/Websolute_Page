@@ -4,7 +4,6 @@ import Clickpage from './Clickpage';
 import ProjectList from './ProjectList';
 import "./Project.css";
 import styled from "styled-components";
-import { Component } from "react";
 import Footer from "../../Footer";
 import Menu from "../../Menu";
 
