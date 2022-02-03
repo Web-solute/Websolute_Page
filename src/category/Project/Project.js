@@ -49,11 +49,11 @@ const Projectpage = () => {
     </div>
     <section id="project" className="section">
       <div className="div3">
-        {<ProjectItem
+        <ProjectItem
           itemsToRender={itemsToShow}
           clickItems={setShowModal}
           clickedObject={setClickedObject}
-        />}
+        />
         {showModal ? (
           <Clickpage
             itemsToShow={clickedObject}
